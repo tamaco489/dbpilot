@@ -1,0 +1,6 @@
+driver: mysql
+dsn: "root:password@tcp(127.0.0.1:3306)/mydb"
+read_only: false
+max_open_conns: 10
+max_idle_conns: 5
+conn_max_lifetime: 3600
