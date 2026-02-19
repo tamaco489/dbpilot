@@ -19,6 +19,7 @@ go.work
 .idea/
 
 # Config files with credentials
+config.yaml
 config.local.yaml
 *.env
 
