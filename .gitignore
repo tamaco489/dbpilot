@@ -1,1 +1,27 @@
+# Binaries
+dbpilot
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output
+*.out
+
+# Go workspace
+go.work
+
+# IDE
+.vscode/
+.idea/
+
+# Config files with credentials
+config.local.yaml
+*.env
+
+# Other
+*.log
 tmp/
