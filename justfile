@@ -11,6 +11,7 @@ install: build
     mv dbpilot /usr/local/bin/dbpilot
     @echo "Installed dbpilot to /usr/local/bin/dbpilot"
 
-# 依存関係を整理
-tidy:
-    go mod tidy
+# 設定ファイルのサンプルをコピー
+setup:
+    cp -n config.example.yaml config.yaml || true
+    @echo "Created config.yaml. Please configure your database connection settings."
